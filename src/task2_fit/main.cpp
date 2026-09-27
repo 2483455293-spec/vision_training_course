@@ -251,7 +251,7 @@ int main() {
 
 
   //====================任务内容4：输出md报告、带标记视频====================
-  ofstream md("result/task2_fit/task2_fit_result.md");
+  ofstream md("result/task2_fit_result.md");
   md << "# Task2 合成旋转视频参数拟合报告\n";
   md << "## 任务1：识别青色目标\n";
   md << "- HSV颜色分割 + "
