@@ -20,7 +20,7 @@ sudo apt install build-essential cmake libopencv-dev libeigen3-dev libceres-dev
 vision_training/
 ├── CMakeLists.txt          # 顶层构建脚本
 ├── README.md               # 本说明文档
-├── include/                # 公共头文件
+├── .gitignore              # git工具
 ├── src/
 │   ├── common/             # 公共工具代码
 │   ├── task1_image/        # Task1 郁金香图像处理 main.cpp
