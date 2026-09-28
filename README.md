@@ -37,10 +37,16 @@ vision_training/
     │   ├── tracking_overlay.mp4
     │   ├── fit_comparison.png
     │   ├── angular_velocity.png
-    │   ├── residuals.png
-    │   └── task2_fit_result.md
+    │   └── residuals.png
+    ├── task3_windmill/     # Task3输出视频    
+    |    ├── task_3/
+    |    │   ├── binary_process.mp4
+    |    │   └── recognition_overplay.mp4
+    |    └── task_4/
+    |        ├── binary_process.mp4
+    |        └── recognition_overplay.mp4
     ├── task2_fit_result.md
-    └── task3_windmill/     # Task3输出(待完成)
+    └── task3_fit_result.md
 ```
 
 ### 素材说明
@@ -64,7 +70,7 @@ cmake --build build -j4 --target task1
 cmake --build build -j4 --target task2
 ./build/task2
 
-# 任务3（尚未实现）
+# 运行任务3
 cmake --build build -j4 --target task3
 # ./build/task3
 ```
